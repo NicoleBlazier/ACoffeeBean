@@ -1,0 +1,38 @@
+$welcome_photo: ('../image/coffee-photo.jpg');
+
+*{
+    box-sizing: border-box;
+}
+
+// Background image inside the body; make sure to use height: vh to set the background to the size of the screen
+body {
+    background-color: black;
+    background-image: url($welcome_photo);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position-y: center;
+}
+
+
+    .coffee {
+        background-color: 	 rgba(39, 9, 0, 0.76);
+        color: white;
+        width: 400px;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: 0;
+        padding: 2rem;
+        h1 p  {
+            padding: 2rem;
+        }
+    }
+    button {
+        background-color: red;
+        color: white;
+        border: 1px solid white;
+        font-weight: bold;
+        width: 200px;
+        height: 50px;
+        padding: 2rem;
+    }
